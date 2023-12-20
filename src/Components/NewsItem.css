@@ -1,0 +1,15 @@
+/* MyComponent.css */
+
+.cardcss {
+background-color: rgb(247, 167, 167);
+
+&:hover {
+    box-shadow: 20px 30px 50px rgb(0, 0, 0),inset -50px -50px 60px rgb(247, 167, 167);
+        background-color: lightcoral;
+        transition: 0.5s;
+    }
+}
+img{
+height: 160px;
+background-color: pink;
+}
